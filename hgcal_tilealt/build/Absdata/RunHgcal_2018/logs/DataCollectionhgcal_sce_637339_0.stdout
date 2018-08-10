@@ -1,0 +1,13 @@
+
+photest194.mac
+DataCollectionhgcal
+
+started at Wed Jun 13 17:15:57 EDT 2018
+
+parameter set:
+UNIQUE_ID: se
+CONDOR_PROCESS: sce
+RUN_DIR: /home/ahorst/hgcal_tile/build
+PARAMETER_SET: photest194.mac
+
+finished at Wed Jun 13 17:15:57 EDT 2018

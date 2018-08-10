@@ -1,0 +1,9 @@
+universe = vanilla
+Executable = condor-executable.sh
+should_transfer_files = NO
+Requirements = TARGET.FileSystemDomain == "privnet"
+Output = /data/users/username/simple_$(cluster)_$(process).stdout
+Error  = /data/users/username/simple_$(cluster)_$(process).stderr
+Log    = /data/users/username/simple_$(cluster)_$(process).condor
+Arguments = simple_$(cluster) $(process) /data/users/username /home/username/CMSSW_X_Y_Z/src condor-simple.py 1234567 10
+Queue 5

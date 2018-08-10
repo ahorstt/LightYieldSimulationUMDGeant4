@@ -1,0 +1,1323 @@
+/home/ahorst/UMDSRDGEStudy-build
+photest0.mac
+DataCollectionMuonTotalEneUnirr
+0
+
+CMSSW on Condor
+
+started at Tue May  8 10:24:43 EDT 2018
+
+*************************************************************
+ Geant4 version Name: geant4-10-01-patch-02    (19-June-2015)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+[LYSim] 11111
+[LYSim] Detector type: Tile
+[LYSim] 22222
+[LYSim] 33333
+[LYSim] 44444
+[LYSim] Refractive Index of Scintillator-PMT gap set to 1.4
+[LYSim] Fiber abs length set to 2.97872 m  
+[LYSim] [SCSN81] Tile abs length set to 3.8 m  
+ Material: G4_POLYSTYRENE    density:  1.060 g/cm3   RadL:  41.313 cm   Nucl.Int.Length:  68.836 cm 
+                       Imean:  68.700 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  92.26 %  ElmAbundance  50.00 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   7.74 %  ElmAbundance  50.00 % 
+
+ Material:    EJ200    density:  1.023 g/cm3   RadL:  42.910 cm   Nucl.Int.Length:  70.730 cm 
+                       Imean:  64.778 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  91.53 %  ElmAbundance  47.56 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   8.47 %  ElmAbundance  52.44 % 
+
+[LYSim] [EJ260] Tile abs length set to 3.8 m  
+ Material:    EJ260    density:  1.023 g/cm3   RadL:  42.916 cm   Nucl.Int.Length:  70.697 cm 
+                       Imean:  64.715 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  91.49 %  ElmAbundance  47.43 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   8.51 %  ElmAbundance  52.57 % 
+
+LUT - data file: /data/users/jengbou/workspace/UserCode/geant4.10.03-install/share/Geant4-10.3.0/data/RealSurface1.0/PolishedTyvek.dat read in! 
+LUT - data file: /data/users/jengbou/workspace/UserCode/geant4.10.03-install/share/Geant4-10.3.0/data/RealSurface1.0/PolishedTyvek.dat read in! 
+******** [LYSim] ********
+thetaMin set to 0.117889
+thetaMax set to 0.141068
+rMin set to 50.3656 cm 
+rMax set to 60.39 cm 
+Dy set to 10.0244 cm 
+Dx2 set to 10.0244 cm 
+******** [LYSim] ********
+Checking overlaps for volume Tile ... OK! 
+Checking overlaps for volume FiberGroove ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume FiberGroove
+          with its mother volume Tile
+          at mother local point (45.3978,-71.7753,-1.1194), overlapping by at least: 2.16533 cm 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+
+Checking overlaps for volume FiberCore ... OK! 
+Checking overlaps for volume FiberInnerCladding ... OK! 
+Checking overlaps for volume FiberOuterCladding ... OK! 
+Checking overlaps for volume Mirror ... OK! 
+Checking overlaps for volume Photocathode ... OK! 
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to He3
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to alpha
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to anti_proton
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to proton
+[LYSim] AddDiscreteProcess to OpticalPhoton 
+[LYSim] 55555
+[LYSim] outFileName tag is DataCollectionMuonTotalEneUnirr
+
+phot:   for  gamma    SubType= 12  BuildTable= 0
+      LambdaPrime table from 200 keV to 1 GeV in 370 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric :  Emin=        0 eV    Emax=        1 GeV   AngularGenSauterGavrila  FluoActive
+
+compt:   for  gamma    SubType= 13  BuildTable= 1
+      Lambda table from 1 eV  to 1 MeV, 100 bins per decade, spline: 1
+      LambdaPrime table from 1 MeV to 1 GeV in 300 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LivermoreCompton :  Emin=        0 eV    Emax=        1 GeV  FluoActive
+
+conv:   for  gamma    SubType= 14  BuildTable= 1
+      Lambda table from 1.022 MeV to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermoreConversion :  Emin=        0 eV    Emax=        1 GeV
+
+Rayl:   for  gamma    SubType= 11  BuildTable= 1
+      Lambda table from 1 eV  to 100 keV, 100 bins per decade, spline: 0
+      LambdaPrime table from 100 keV to 1 GeV in 400 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh :  Emin=        0 eV    Emax=        1 GeV   CullenGenerator
+
+Rayl:   for  gamma    SubType= 11  BuildTable= 1
+      Lambda table from 1 eV  to 100 keV, 100 bins per decade, spline: 0
+      LambdaPrime table from 100 keV to 1 GeV in 400 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh :  Emin=        0 eV    Emax=        1 GeV   CullenGenerator
+
+phot:   for  gamma    SubType= 12  BuildTable= 0
+      LambdaPrime table from 200 keV to 1 GeV in 370 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric :  Emin=        0 eV    Emax=        1 GeV   AngularGenSauterGavrila  FluoActive
+
+compt:   for  gamma    SubType= 13  BuildTable= 1
+      Lambda table from 1 eV  to 1 MeV, 100 bins per decade, spline: 1
+      LambdaPrime table from 1 MeV to 1 GeV in 300 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LivermoreCompton :  Emin=        0 eV    Emax=        1 GeV  FluoActive
+
+conv:   for  gamma    SubType= 14  BuildTable= 1
+      Lambda table from 1.022 MeV to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermoreConversion :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.01, stepLimitType: 3, latDisplacement: 1, skin= 1, geomFactor= 2.5
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 MeV  Table with 600 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=        1 GeV  Table with 100 bins Emin=    100 MeV   Emax=      1 GeV
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld
+
+### === G4UAtomicDeexcitation::InitialiseForNewRun()
+### ===  PIXE model for hadrons: Empirical  1
+### ===  PIXE model for e+-:     Livermore  1
+
+eIoni:   for  e-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       LowEnergyIoni :  Emin=        0 eV    Emax=      100 keV   deltaVI
+        MollerBhabha :  Emin=      100 keV   Emax=        1 GeV   deltaVI
+
+eBrem:   for  e-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           LowEnBrem :  Emin=        0 eV    Emax=        1 GeV   AngularGen2BS
+
+CoulombScat:   for  e-, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from 100 MeV to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=      100 MeV   Emax=        1 GeV
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+eIoni:   for  e-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+
+eBrem:   for  e-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+
+msc:   for e+    SubType= 10
+      RangeFactor= 0.01, stepLimitType: 3, latDisplacement: 1, skin= 1, geomFactor= 2.5
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 MeV  Table with 600 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=        1 GeV  Table with 100 bins Emin=    100 MeV   Emax=      1 GeV
+
+eIoni:   for  e+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+
+eBrem:   for  e+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+
+annihil:   for  e+, integral: 1     SubType= 5  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg :  Emin=        0 eV    Emax=        1 GeV
+
+CoulombScat:   for  e+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from 100 MeV to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=      100 MeV   Emax=        1 GeV
+
+msc:   for e+    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+eIoni:   for  e+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+
+eBrem:   for  e+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+
+annihil:   for  e+, integral: 1     SubType= 5  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  proton    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.05, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=        2 MeV   deltaVI
+          BetheBloch :  Emin=        2 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  proton    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  proton    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+nuclearStopping:   for  proton    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hImpactIoni:    Knock-on electron cross sections . 
+        Good description above the mean excitation energy.
+        Delta ray energy sampled from  differential Xsection.
+        PhysicsTables from 10 eV  to 0.1 TeV  in 360 bins.
+        Electronic stopping power model is  ICRU_R49p
+        from 1 keV  to 2 MeV .
+
+        Parametrisation model for antiprotons is  ICRU_R49p
+        from 25 keV  to 2 MeV .
+        Parametrization of the Barkas effect is switched on.
+        Nuclear stopping power model is ICRU_R49
+
+msc:   for GenericIon    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV
+
+ionIoni:   for  GenericIon    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+         ParamICRU73 :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:   for  GenericIon    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for GenericIon    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV
+
+ionIoni:   for  GenericIon    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.001, dRoverRange= 0.1, integral: 1, fluct: 1, linLossLimit= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+         ParamICRU73 :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:   for  GenericIon    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for alpha    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+ionIoni:   for  alpha    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.01, dRoverRange= 0.1, integral: 1, fluct: 1, linLossLimit= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon :  Emin=        0 eV    Emax=   7.9452 MeV   deltaVI
+          BetheBloch :  Emin=   7.9452 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:   for  alpha    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for anti_proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  anti_proton    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.05, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=        2 MeV   deltaVI
+          BetheBloch :  Emin=        2 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  anti_proton    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  anti_proton    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+nuclearStopping:   for  anti_proton    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for anti_proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hImpactIoni:    Knock-on electron cross sections . 
+        Good description above the mean excitation energy.
+        Delta ray energy sampled from  differential Xsection.
+        PhysicsTables from 10 eV  to 0.1 TeV  in 360 bins.
+        Electronic stopping power model is  ICRU_R49p
+        from 1 keV  to 2 MeV .
+
+        Parametrisation model for antiprotons is  ICRU_R49p
+        from 25 keV  to 2 MeV .
+        Parametrization of the Barkas effect is switched on.
+        Nuclear stopping power model is ICRU_R49
+
+msc:   for kaon+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  kaon+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  kaon+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for kaon+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+msc:   for kaon-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  kaon-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  kaon-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for kaon-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+msc:   for mu+    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+CoulombScat:   for  mu+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for mu+    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for mu-    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+CoulombScat:   for  mu-, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for mu-    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for pi+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  pi+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  pi+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for pi+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+msc:   for pi-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  pi-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  pi-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for pi-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+========= Table of registered couples ==============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : EJ200
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : FiberCorePS
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 3     used in the geometry : Yes
+ Material : FiberInnerCladding
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 4     used in the geometry : Yes
+ Material : FiberOuterCladding
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 5     used in the geometry : Yes
+ Material : G4_GALLIUM_ARSENIDE
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+====================================================================
+
+Output filename: DataCollectionMuonTotalEneUnirr.root
+Starting Event: 0
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.13301
+TotalEnergy3.38732
+TotalEnergy2.74151
+TotalEnergy2.45656
+TotalEnergy4.38697
+TotalEnergy2.64695
+Track length exceeded limit of 5000 mm
+TotalEnergy3.28064
+TotalEnergy2.43904
+TotalEnergy4.85846
+TotalEnergy4.09228
+TotalEnergy2.56855
+TotalEnergy2.63937
+TotalEnergy2.30725
+Track length exceeded limit of 5000 mm
+TotalEnergy2.66524
+TotalEnergy2.99452
+TotalEnergy2.80572
+Track length exceeded limit of 5000 mm
+TotalEnergy3.12414
+TotalEnergy2.77088
+Track length exceeded limit of 5000 mm
+TotalEnergy2.38311
+TotalEnergy2.99984
+TotalEnergy3.60518
+Track length exceeded limit of 5000 mm
+TotalEnergy4.76735
+TotalEnergy3.2234
+TotalEnergy3.12007
+TotalEnergy2.85623
+TotalEnergy7.51446
+Track length exceeded limit of 5000 mm
+TotalEnergy3.16582
+TotalEnergy3.34669
+TotalEnergy2.256
+TotalEnergy2.81353
+TotalEnergy2.32828
+TotalEnergy2.16238
+TotalEnergy2.56038
+TotalEnergy3.149
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.14508
+TotalEnergy2.46057
+Track length exceeded limit of 5000 mm
+TotalEnergy2.67846
+TotalEnergy4.00888
+TotalEnergy2.93902
+TotalEnergy7.51592
+TotalEnergy3.64663
+TotalEnergy3.67551
+TotalEnergy4.37553
+TotalEnergy5.06416
+TotalEnergy3.28005
+Track length exceeded limit of 5000 mm
+TotalEnergy2.41062
+TotalEnergy6.34513
+TotalEnergy4.33876
+TotalEnergy2.43515
+Track length exceeded limit of 5000 mm
+TotalEnergy2.64985
+TotalEnergy2.74227
+TotalEnergy4.71568
+TotalEnergy10.9188
+Track length exceeded limit of 5000 mm
+TotalEnergy3.26512
+TotalEnergy3.24333
+TotalEnergy4.8305
+TotalEnergy3.16947
+TotalEnergy2.56916
+TotalEnergy6.03157
+Track length exceeded limit of 5000 mm
+TotalEnergy2.40351
+Track length exceeded limit of 5000 mm
+TotalEnergy2.33412
+TotalEnergy4.42589
+TotalEnergy2.6002
+Track length exceeded limit of 5000 mm
+TotalEnergy3.30484
+TotalEnergy3.45054
+TotalEnergy4.17499
+TotalEnergy2.76006
+TotalEnergy2.291
+TotalEnergy2.98366
+TotalEnergy2.81861
+TotalEnergy3.80737
+TotalEnergy2.52704
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.41333
+TotalEnergy2.73677
+TotalEnergy6.74286
+TotalEnergy3.28291
+TotalEnergy2.96902
+TotalEnergy2.84992
+Track length exceeded limit of 5000 mm
+TotalEnergy2.65207
+TotalEnergy2.92019
+TotalEnergy4.4233
+TotalEnergy3.89526
+TotalEnergy3.16202
+TotalEnergy3.58427
+TotalEnergy2.27065
+TotalEnergy3.09239
+TotalEnergy2.86595
+TotalEnergy2.37548
+Track length exceeded limit of 5000 mm
+TotalEnergy3.58073
+Track length exceeded limit of 5000 mm
+TotalEnergy2.3759
+TotalEnergy2.93987
+TotalEnergy2.64901
+TotalEnergy2.43766
+Track length exceeded limit of 5000 mm
+TotalEnergy2.9358
+TotalEnergy2.42373
+TotalEnergy3.15071
+TotalEnergy2.72643
+Track length exceeded limit of 5000 mm
+TotalEnergy3.08376
+TotalEnergy4.73611
+TotalEnergy3.34184
+Starting Event: 100
+TotalEnergy2.78697
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy16.6911
+TotalEnergy3.10846
+TotalEnergy3.13773
+Track length exceeded limit of 5000 mm
+TotalEnergy3.67716
+TotalEnergy2.60598
+TotalEnergy3.99775
+TotalEnergy2.58825
+TotalEnergy3.62607
+TotalEnergy3.16309
+TotalEnergy3.76778
+TotalEnergy5.71578
+TotalEnergy3.21204
+TotalEnergy3.83198
+TotalEnergy3.29529
+TotalEnergy2.88906
+TotalEnergy3.35648
+Track length exceeded limit of 5000 mm
+TotalEnergy5.13221
+TotalEnergy3.01234
+TotalEnergy3.54417
+TotalEnergy2.69385
+TotalEnergy3.53874
+TotalEnergy3.30509
+TotalEnergy5.6195
+Track length exceeded limit of 5000 mm
+TotalEnergy3.05683
+TotalEnergy3.43074
+TotalEnergy3.06179
+Track length exceeded limit of 5000 mm
+TotalEnergy3.21321
+TotalEnergy3.92205
+Track length exceeded limit of 5000 mm
+TotalEnergy2.69215
+Track length exceeded limit of 5000 mm
+TotalEnergy3.07717
+TotalEnergy2.52811
+TotalEnergy4.06959
+TotalEnergy2.95064
+TotalEnergy3.62551
+TotalEnergy3.1777
+TotalEnergy2.78817
+TotalEnergy4.40927
+TotalEnergy3.10298
+Track length exceeded limit of 5000 mm
+TotalEnergy2.88218
+TotalEnergy4.11507
+TotalEnergy2.57395
+TotalEnergy3.64691
+Track length exceeded limit of 5000 mm
+TotalEnergy2.14279
+TotalEnergy2.33059
+TotalEnergy3.45267
+Track length exceeded limit of 5000 mm
+TotalEnergy2.93536
+TotalEnergy2.65635
+TotalEnergy3.19266
+TotalEnergy6.32581
+TotalEnergy3.98443
+Track length exceeded limit of 5000 mm
+TotalEnergy2.56313
+TotalEnergy7.4259
+Track length exceeded limit of 5000 mm
+TotalEnergy3.41299
+TotalEnergy4.16742
+TotalEnergy3.04728
+TotalEnergy2.90175
+TotalEnergy4.71157
+TotalEnergy3.50103
+TotalEnergy4.08115
+TotalEnergy2.86348
+TotalEnergy4.40112
+TotalEnergy2.42877
+TotalEnergy2.61581
+TotalEnergy2.72406
+Track length exceeded limit of 5000 mm
+TotalEnergy2.25317
+TotalEnergy13.1566
+TotalEnergy3.10215
+Track length exceeded limit of 5000 mm
+TotalEnergy2.59591
+TotalEnergy3.83456
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.29061
+Track length exceeded limit of 5000 mm
+TotalEnergy3.18979
+TotalEnergy2.68018
+TotalEnergy2.99768
+TotalEnergy3.09781
+Track length exceeded limit of 5000 mm
+TotalEnergy2.74706
+TotalEnergy3.06727
+TotalEnergy2.74702
+Track length exceeded limit of 5000 mm
+TotalEnergy3.26838
+TotalEnergy4.64765
+TotalEnergy3.50936
+TotalEnergy2.83906
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.6568
+TotalEnergy2.77745
+TotalEnergy3.09389
+TotalEnergy3.43477
+TotalEnergy3.47899
+TotalEnergy3.42027
+TotalEnergy3.87884
+TotalEnergy7.59182
+TotalEnergy2.42466
+TotalEnergy3.07415
+Track length exceeded limit of 5000 mm
+TotalEnergy2.43257
+TotalEnergy2.33742
+TotalEnergy2.68066
+TotalEnergy4.12539
+TotalEnergy4.8225
+TotalEnergy3.73142
+TotalEnergy5.9511
+TotalEnergy3.45971
+Starting Event: 200
+Track length exceeded limit of 5000 mm
+TotalEnergy2.35667
+TotalEnergy3.99496
+Track length exceeded limit of 5000 mm
+TotalEnergy2.82505
+TotalEnergy3.22649
+TotalEnergy11.6353
+Track length exceeded limit of 5000 mm
+TotalEnergy3.09289
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy2.65476
+TotalEnergy3.40151
+TotalEnergy2.28392
+TotalEnergy2.91396
+Track length exceeded limit of 5000 mm
+TotalEnergy2.92071
+TotalEnergy3.0067
+TotalEnergy8.02957
+TotalEnergy3.40626
+TotalEnergy4.48835
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy18.0883
+TotalEnergy2.99027
+Track length exceeded limit of 5000 mm
+TotalEnergy2.45009
+TotalEnergy2.56673
+Track length exceeded limit of 5000 mm
+TotalEnergy3.12411
+Track length exceeded limit of 5000 mm
+TotalEnergy3.30599
+Track length exceeded limit of 5000 mm
+TotalEnergy3.32844
+TotalEnergy4.75191
+TotalEnergy3.836
+Track length exceeded limit of 5000 mm
+TotalEnergy3.08052
+TotalEnergy6.78812
+TotalEnergy3.33117
+TotalEnergy4.17195
+Track length exceeded limit of 5000 mm
+TotalEnergy3.04101
+TotalEnergy3.86787
+TotalEnergy8.62357
+TotalEnergy3.56402
+Track length exceeded limit of 5000 mm
+TotalEnergy2.43986
+TotalEnergy3.32203
+TotalEnergy2.9868
+TotalEnergy3.37901
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.63977
+TotalEnergy2.95301
+TotalEnergy2.89467
+TotalEnergy3.38425
+TotalEnergy2.75622
+Track length exceeded limit of 5000 mm
+TotalEnergy2.91196
+TotalEnergy2.8085
+TotalEnergy2.9369
+TotalEnergy2.83766
+TotalEnergy3.3217
+TotalEnergy2.71751
+TotalEnergy3.63444
+TotalEnergy2.91624
+TotalEnergy6.56876
+TotalEnergy2.79963
+TotalEnergy2.88861
+TotalEnergy3.60905
+TotalEnergy2.62876
+TotalEnergy4.54639
+Track length exceeded limit of 5000 mm
+TotalEnergy3.12912
+TotalEnergy2.69441
+TotalEnergy2.38637
+Track length exceeded limit of 5000 mm
+TotalEnergy2.84336
+TotalEnergy4.47739
+TotalEnergy2.96426
+TotalEnergy2.42956
+TotalEnergy3.65656
+TotalEnergy2.92918
+TotalEnergy2.87645
+TotalEnergy2.50691
+Track length exceeded limit of 5000 mm
+TotalEnergy3.16916
+TotalEnergy2.8797
+TotalEnergy3.09854
+TotalEnergy2.9269
+TotalEnergy3.47536
+TotalEnergy3.08246
+TotalEnergy3.48327
+TotalEnergy3.10731
+TotalEnergy6.75381
+TotalEnergy3.81816
+TotalEnergy4.32334
+TotalEnergy3.44048
+TotalEnergy5.00792
+Track length exceeded limit of 5000 mm
+TotalEnergy2.98362
+TotalEnergy2.51341
+TotalEnergy3.42765
+Track length exceeded limit of 5000 mm
+TotalEnergy2.44267
+Track length exceeded limit of 5000 mm
+TotalEnergy2.45246
+TotalEnergy2.78727
+TotalEnergy2.98171
+TotalEnergy4.9705
+TotalEnergy2.8015
+TotalEnergy2.72827
+TotalEnergy5.51037
+Track length exceeded limit of 5000 mm
+TotalEnergy3.39571
+Track length exceeded limit of 5000 mm
+TotalEnergy2.67694
+TotalEnergy2.7884
+TotalEnergy2.33438
+TotalEnergy7.0755
+TotalEnergy2.45419
+TotalEnergy2.86924
+TotalEnergy3.27344
+TotalEnergy5.69156
+TotalEnergy2.4313
+Starting Event: 300
+TotalEnergy3.79993
+TotalEnergy2.70041
+TotalEnergy5.01543
+Track length exceeded limit of 5000 mm
+TotalEnergy2.70321
+TotalEnergy3.06683
+TotalEnergy2.68197
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy2.78839
+TotalEnergy4.2312
+TotalEnergy3.31066
+Track length exceeded limit of 5000 mm
+TotalEnergy2.68602
+TotalEnergy3.19897
+TotalEnergy3.61734
+TotalEnergy11.3353
+TotalEnergy2.63766
+TotalEnergy3.63081
+TotalEnergy4.14064
+TotalEnergy3.32229
+TotalEnergy3.15399
+TotalEnergy3.88368
+TotalEnergy3.25719
+TotalEnergy2.43969
+TotalEnergy3.98414
+TotalEnergy5.24975
+TotalEnergy3.03855
+Track length exceeded limit of 5000 mm
+TotalEnergy3.19531
+TotalEnergy3.02741
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy15.8077
+TotalEnergy2.95794
+TotalEnergy2.26056
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy2.64418
+Track length exceeded limit of 5000 mm
+TotalEnergy3.49502
+TotalEnergy3.74325
+Track length exceeded limit of 5000 mm
+TotalEnergy3.47158
+TotalEnergy3.64429
+TotalEnergy2.56599
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy3.12091
+TotalEnergy2.65977
+TotalEnergy4.84747
+TotalEnergy3.02963
+TotalEnergy2.87916
+TotalEnergy7.33273
+TotalEnergy2.56574
+TotalEnergy2.29119
+TotalEnergy3.18096
+TotalEnergy4.35407
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy10.0377
+TotalEnergy9.6588
+TotalEnergy3.96173
+TotalEnergy2.75787
+TotalEnergy3.96094
+TotalEnergy2.65654
+TotalEnergy7.02356
+TotalEnergy8.99771
+TotalEnergy2.5432
+TotalEnergy7.4984
+TotalEnergy3.806
+TotalEnergy4.79205
+Track length exceeded limit of 5000 mm
+TotalEnergy2.97655
+TotalEnergy2.35856
+TotalEnergy5.1008
+TotalEnergy4.57436
+Track length exceeded limit of 5000 mm
+TotalEnergy2.94168
+TotalEnergy6.26194
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+Track length exceeded limit of 5000 mm
+TotalEnergy12.4118
+TotalEnergy2.26802
+TotalEnergy3.36941
+TotalEnergy3.30128
+TotalEnergy3.79273
+TotalEnergy2.74265
+TotalEnergy2.36522
+TotalEnergy2.55837
+TotalEnergy3.38972
+TotalEnergy4.06461
+TotalEnergy3.78338
+Track length exceeded limit of 5000 mm
+TotalEnergy2.60479
+TotalEnergy2.57963
+TotalEnergy3.42045
+TotalEnergy2.94077
+TotalEnergy3.57908
+Track length exceeded limit of 5000 mm
+TotalEnergy2.65523
+TotalEnergy3.41102
+Track length exceeded limit of 5000 mm
+TotalEnergy3.0019
+Track length exceeded limit of 5000 mm
+TotalEnergy2.88003
+TotalEnergy3.01547
+TotalEnergy2.611
+TotalEnergy3.17002
+TotalEnergy2.51923
+TotalEnergy3.28448
+TotalEnergy2.94852
+TotalEnergy3.14633
+TotalEnergy3.08918
+Track length exceeded limit of 5000 mm
+TotalEnergy3.46025
+TotalEnergy2.96235
+TotalEnergy7.27997
+Track length exceeded limit of 5000 mm
+TotalEnergy3.70671
+TotalEnergy2.82983
+TotalEnergy2.35397
+TotalEnergy2.9255
+TotalEnergy3.43841
+TotalEnergy2.38022
+Starting Event: 400
+TotalEnergy2.25275
+TotalEnergy11.0293
+TotalEnergy4.2559
+TotalEnergy2.42055
+TotalEnergy2.60968
+TotalEnergy4.36264
+TotalEnergy4.79518
+TotalEnergy2.73498
+Track length exceeded limit of 5000 mm
+TotalEnergy3.17354
+TotalEnergy2.69892
+TotalEnergy3.21469
+TotalEnergy4.59617
+TotalEnergy2.56801
+TotalEnergy2.614
+TotalEnergy3.35574
+Track length exceeded limit of 5000 mm
+TotalEnergy2.8146
+TotalEnergy2.69123
+TotalEnergy11.9367
+TotalEnergy3.63844
+TotalEnergy4.31706
+TotalEnergy8.88457
+Track length exceeded limit of 5000 mm
+TotalEnergy3.49655
+TotalEnergy6.17956
+TotalEnergy2.88123
+TotalEnergy3.76805
+TotalEnergy2.62269
+Track length exceeded limit of 5000 mm
+TotalEnergy2.62694
+TotalEnergy5.3518
+TotalEnergy2.77026
+TotalEnergy3.60278
+TotalEnergy4.15976
+TotalEnergy7.04611
+TotalEnergy2.93667
+TotalEnergy2.63704
+TotalEnergy3.41849
+TotalEnergy3.01131
+Track length exceeded limit of 5000 mm
+TotalEnergy3.02833
+Track length exceeded limit of 5000 mm
+TotalEnergy3.553
+TotalEnergy4.87129
+TotalEnergy3.43507
+TotalEnergy2.81994
+TotalEnergy3.96156
+TotalEnergy5.51367
+TotalEnergy4.59513
+TotalEnergy3.10861
+TotalEnergy2.61994
+Track length exceeded limit of 5000 mm
+TotalEnergy3.73807
+Track length exceeded limit of 5000 mm
+TotalEnergy2.95159
+TotalEnergy2.40604
+TotalEnergy4.28977

@@ -1,0 +1,90 @@
+#+1533218251
+root -l Total\[0.0]\[0.0].root
+#+1533218570
+root -l Total\[0.0]\[-0.5].root
+#+1533218765
+root -l Total\[0.0]\[0.5].root
+#+1533218821
+root -l Total\[0.0]\[-1.3].root
+#+1533218952
+root -l Total\[-0.5]\[0.0].root
+#+1533218990
+root -l Total\[0.0]\[1.3].root
+#+1533219049
+root -l Total\[-0.5]\[-0.5].root
+#+1533219108
+root -l Total\[0.5]\[0.0].root
+#+1533219504
+root -l Total\[-1.3]\[0.0].root
+#+1533223121
+root -l Total\[1.3]\[0.0].root
+#+1533509895
+python pip install pandas
+#+1533509977
+conda install pandas
+#+1533510048
+pip install wheel
+#+1533510184
+pip --version
+#+1533510244
+pip install pandas
+#+1533510281
+python -m pip install bs4
+#+1533510340
+python
+#+1533541623
+source g
+#+1533542354
+--upgrade
+#+1533542410
+pip3 install numpy
+#+1533542466
+pip uninstall numpy
+#+1533542491
+pip install numpy
+#+1533542630
+pip install --upgrade pip
+#+1533543497
+root -l ys.root
+#+1533544331
+python testinsane.py
+#+1533548685
+python DatatoRoot.py
+#+1533548688
+root -l FinalShallow.root
+#+1533570552
+cd
+#+1533570558
+cd /data/users/ahorst/hgcal_tile/build/
+#+1533570563
+rm photontest.mac photontest_*.mac Analysis*.txt *.condor *.stdout *.stderr
+#+1533570580
+rm Analysis*.root
+#+1533580732
+cd ..
+#+1533584270
+condor_q ahorst
+#+1533588678
+condor_rm ahorst
+#+1533588743
+rm photontest.mac photontest_*.mac Analysis*.txt *.condor *.stdout *.stderr Analysis*.root
+#+1533736362
+rm photontest_*.mac
+#+1533736499
+vim photontestbeams.mac
+#+1533823050
+ll
+#+1533892085
+cd /data/users/ahorst/hgcal_tile/
+#+1533892088
+source g4env.csh
+#+1533892090
+cd bu
+#+1533892092
+cd build/
+#+1533892319
+python tileJobsInsaneGraphs.py
+#+1533892655
+make
+#+1533892666
+python tileJobsInsaneTest.py

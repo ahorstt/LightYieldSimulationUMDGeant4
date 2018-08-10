@@ -1,0 +1,4 @@
+/control/execute init.mac
+/LYSim/SetInducedAbsLength 74.95 cm
+/LYSim/Update
+/run/beamOn 2000000

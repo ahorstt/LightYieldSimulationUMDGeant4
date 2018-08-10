@@ -1,0 +1,12 @@
+
+universe = vanilla
+Executable = ./CMS.sh
++IsLocalJob = true
+Should_transfer_files = NO
+Requirements = TARGET.FileSystemDomain == "privnet"
+Output = /home/ahorst/UMDSRDGEStudy-build/Absdata/Run_PlanarDist5000-10milChopped/logs/DataCollectionPlanarIrrDisc40_sce_$(cluster)_$(process).stdout
+Error  = /home/ahorst/UMDSRDGEStudy-build/Absdata/Run_PlanarDist5000-10milChopped/logs/DataCollectionPlanarIrrDisc40_sce_$(cluster)_$(process).stderr
+Log    = /home/ahorst/UMDSRDGEStudy-build/Absdata/Run_PlanarDist5000-10milChopped/logs/DataCollectionPlanarIrrDisc40_sce_$(cluster)_$(process).condor
+Arguments = /home/ahorst/UMDSRDGEStudy-build photest40.mac DataCollectionPlanarIrrDisc40 3
+Queue 1
+ 

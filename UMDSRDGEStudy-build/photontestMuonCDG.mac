@@ -1,0 +1,13 @@
+/gps/particle mu+
+/gps/pos/type Plane
+/gps/pos/shape Square
+/gps/pos/halfx 3 cm
+/gps/pos/halfy 3 cm
+/gps/pos/centre 0 0 3 cm
+/gps/direction 0 0 -1
+/gps/ene/type Cdg
+/gps/ene/min 1 MeV
+/gps/ene/max 100 MeV
+/gps/ene/calculate
+/run/beamOn 2
+

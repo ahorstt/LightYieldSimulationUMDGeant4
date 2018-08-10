@@ -1,0 +1,12 @@
+
+universe = vanilla
+Executable = ./CMS.sh
++IsLocalJob = true
+Should_transfer_files = NO
+Requirements = TARGET.FileSystemDomain == "privnet"
+Output = /home/ahorst/UMDSRDGEStudy-build/Absdata/Run4_20170606/logs/DataCollectionMuonTotalEneUnirr22[60000]_sce_$(cluster)_$(process).stdout
+Error  = /home/ahorst/UMDSRDGEStudy-build/Absdata/Run4_20170606/logs/DataCollectionMuonTotalEneUnirr22[60000]_sce_$(cluster)_$(process).stderr
+Log    = /home/ahorst/UMDSRDGEStudy-build/Absdata/Run4_20170606/logs/DataCollectionMuonTotalEneUnirr22[60000]_sce_$(cluster)_$(process).condor
+Arguments = /home/ahorst/UMDSRDGEStudy-build photest22.mac DataCollectionMuonTotalEneUnirr22[60000] 0
+Queue 1
+ 

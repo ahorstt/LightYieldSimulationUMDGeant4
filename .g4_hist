@@ -1,0 +1,100 @@
+exit
+/vis/viewer/set/viewpointThetaPhi 70 20
+/run/beamOn 50
+/run/beamOn 50
+exit
+/vis/viewer/set/viewpointThetaPhi 70 20
+exit
+photontestHisto.mac
+/run/beamOn 1 photontestHisto.mac
+/vis/viewer/set/viewpointThetaPhi 70 20
+/run/beamOn 1 photontestHisto.mac
+/run/beamOn 10 photontestHisto.mac
+/run/beamOn 10 photontestHisto.mac
+/run/beamOn 10 photontestHisto.mac
+/run/beamOn 10 photontestHisto.mac
+/run/beamOn 10 photontest.mac
+/run/beamOn 10 photontest.mac
+/run/beamOn 10 photontest.mac
+/run/beamOn 10 photontestHisto.mac
+/run/beamOn 1 photontestHisto.mac
+/run/beamOn 1 photontestHisto.mac
+/run/beamOn 1 photontestHisto.mac
+/vis/viewer/set/viewpointThetaPhi 90 0
+/vis/viewer/set/viewpointThetaPhi 0 090
+/run/beamOn 1 photontestHisto.mac
+/run/beamOn 1 photontestHisto.mac
+/run/beamOn 1 photontestHisto.mac
+exit
+/run/beamOn 1 photontestHisto.mac
+exit
+/run/beamOn 1 photontestHisto.mac
+exit
+/run/beamOn 10 photontest.mac
+/vis/viewer/set/viewpointThetaPhi 70 20
+/run/beamOn 10 photontest.mac
+/run/beamOn 10 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/vis/viewer/set/viewpointThetaPhi 0 090
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/vis/viewer/set/viewpointThetaPhi 70 20
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+/run/beamOn 1 photontest.mac
+exit
+/run/beamOn 1 photontestHisto.mac
+/run/beamOn 10 photontestHisto.mac
+exit
+/vis/viewer/set/viewpointThetaPhi 20 70
+/vis/viewer/set/viewpointThetaPhi 70 20
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+exit
+/vis/viewer/set/viewpointThetaPhi 70 20
+.q
+exit
+exit
+exit
+exit
+.q
+exit
+exit
+/vis/viewer/set/viewpointThetaPhi 70 20
+/vis/viewer/set/viewpointThetaPhi 90 0
+exit
+exit
+/vis/viewer/set/viewpointThetaPhi 70 20
+/vis/viewer/set/viewpointThetaPhi 60 20
+/vis/viewer/set/viewpointThetaPhi 50 20
+/vis/viewer/set/viewpointThetaPhi 40 20
+/vis/viewer/set/viewpointThetaPhi 300 20
+/vis/viewer/set/viewpointThetaPhi 30 20
+.q
+exit
+/vis/viewer/set/viewpointThetaPhi 70 20
+.q
+exit
+

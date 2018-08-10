@@ -1,0 +1,37 @@
+/tracking/verbose 0
+/gps/particle opticalphoton
+/gps/ene/type Arb
+/gps/ene/diffspec 0
+/gps/hist/type arb
+/gps/hist/point 0.0000032558 0.000474
+/gps/hist/point 0.0000031940 0.000474
+/gps/hist/point 0.0000031463 0.000474
+/gps/hist/point 0.0000030999 0.011464
+/gps/hist/point 0.0000030590 0.080387
+/gps/hist/point 0.0000030320 0.206540
+/gps/hist/point 0.0000030121 0.324938
+/gps/hist/point 0.0000029931 0.467864
+/gps/hist/point 0.0000029751 0.631859
+/gps/hist/point 0.0000029355 0.802883
+/gps/hist/point 0.0000028960 0.958604
+/gps/hist/point 0.0000028583 0.982646
+/gps/hist/point 0.0000028294 0.898223
+/gps/hist/point 0.0000027985 0.795252
+/gps/hist/point 0.0000027708 0.683026
+/gps/hist/point 0.0000027354 0.591581
+/gps/hist/point 0.0000027004 0.504701
+/gps/hist/point 0.0000026663 0.439748
+/gps/hist/point 0.0000026335 0.382882
+/gps/hist/point 0.0000026016 0.293017
+/gps/hist/point 0.0000025698 0.151478
+/gps/hist/point 0.0000025389 0.107053
+/gps/hist/point 0.0000025087 0.077453
+/gps/hist/point 0.0000024814 0.053003
+/gps/hist/inter Lin
+/gps/position -5.0 -5.0 0 cm
+/gps/ang/type iso
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 180 deg
+/gps/ang/minphi 0 deg
+/gps/ang/maxphi 360 deg
+/run/beamOn 1000000

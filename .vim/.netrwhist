@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/ahorst/UMDSRDGEStudy/src'
+let g:netrw_dirhist_2='/home/ahorst/UMDSRDGEStudy'
+let g:netrw_dirhist_3='/home/ahorst'
+let g:netrw_dirhist_4='/home/ahorst/UMDSRDGEStudy-build'
+let g:netrw_dirhist_5='/home/ahorst/UMDSRDGEStudy/include'
+let g:netrw_dirhist_6='/home/ahorst/UMDSRDGEStudy/src'

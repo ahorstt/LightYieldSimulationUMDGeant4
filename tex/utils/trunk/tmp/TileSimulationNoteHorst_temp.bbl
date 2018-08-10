@@ -1,0 +1,12 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{1}%
+\makeatletter
+\providecommand{\hrefCMSnoop }[0]{\@secondoftwo}%
+\makeatother
+\providecommand{\doi}{\texttt{doi:}\begingroup \urlstyle{tt}\Url}
+
+\bibitem{hlw07}
+\hrefCMSnoop {}{C.~Hagmann, D.~Lange, and D.~Wright, ``Cosmic-ray shower
+  generator (cry) for monte carlo transport codes'',} \textit{ IEEE} (2007)
+  1143.
+
+\end{thebibliography}\endgroup

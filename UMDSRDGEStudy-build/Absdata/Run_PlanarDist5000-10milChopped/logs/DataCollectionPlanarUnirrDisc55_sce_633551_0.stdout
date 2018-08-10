@@ -1,0 +1,1722 @@
+/home/ahorst/UMDSRDGEStudy-build
+photest55.mac
+DataCollectionPlanarUnirrDisc55
+3
+
+CMSSW on Condor
+
+started at Mon Jun 11 15:46:32 EDT 2018
+
+*************************************************************
+ Geant4 version Name: geant4-10-01-patch-02    (19-June-2015)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+[LYSim] 11111
+[LYSim] Detector type: Disc
+[LYSim] 22222
+[LYSim] 33333
+[LYSim] 44444
+[LYSim] Refractive Index of Scintillator-PMT gap set to 1.4
+[LYSim] Fiber abs length set to 2.97872 m  
+[LYSim] [SCSN81] Tile abs length set to 3.8 m  
+ Material: G4_POLYSTYRENE    density:  1.060 g/cm3   RadL:  41.313 cm   Nucl.Int.Length:  68.836 cm 
+                       Imean:  68.700 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  92.26 %  ElmAbundance  50.00 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   7.74 %  ElmAbundance  50.00 % 
+
+ Material:    EJ200    density:  1.023 g/cm3   RadL:  42.910 cm   Nucl.Int.Length:  70.730 cm 
+                       Imean:  64.778 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  91.53 %  ElmAbundance  47.56 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   8.47 %  ElmAbundance  52.44 % 
+
+[LYSim] [EJ260] Tile abs length set to 3.8 m  
+ Material:    EJ260    density:  1.023 g/cm3   RadL:  42.916 cm   Nucl.Int.Length:  70.697 cm 
+                       Imean:  64.715 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  91.49 %  ElmAbundance  47.43 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   8.51 %  ElmAbundance  52.57 % 
+
+LUT - data file: /data/users/jengbou/workspace/UserCode/geant4.10.03-install/share/Geant4-10.3.0/data/RealSurface1.0/PolishedTyvek.dat read in! 
+LUT - data file: /data/users/jengbou/workspace/UserCode/geant4.10.03-install/share/Geant4-10.3.0/data/RealSurface1.0/PolishedTyvek.dat read in! 
+Checking overlaps for volume Disc ... OK! 
+Checking overlaps for volume Photocathode ... OK! 
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to He3
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to alpha
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to anti_proton
+ ********************************************************** 
+ *                  W A R N I N G ! ! !                   * 
+ ********************************************************** 
+ *                                                        * 
+ *  Class G4AtomicDeexcitation is obsolete. It has been   * 
+ * discontinued and is going to be removed by next Geant4 * 
+ *     release please migrate to G4UAtomDeexcitation.     * 
+ *                                                        * 
+ ********************************************************** 
+[LYSim] Add Hadron Impact Ionisation and PIXE to proton
+[LYSim] AddDiscreteProcess to OpticalPhoton 
+[LYSim] 55555
+[LYSim] outFileName tag is DataCollectionPlanarUnirrDisc55
+
+phot:   for  gamma    SubType= 12  BuildTable= 0
+      LambdaPrime table from 200 keV to 1 GeV in 370 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric :  Emin=        0 eV    Emax=        1 GeV   AngularGenSauterGavrila  FluoActive
+
+compt:   for  gamma    SubType= 13  BuildTable= 1
+      Lambda table from 1 eV  to 1 MeV, 100 bins per decade, spline: 1
+      LambdaPrime table from 1 MeV to 1 GeV in 300 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LivermoreCompton :  Emin=        0 eV    Emax=        1 GeV  FluoActive
+
+conv:   for  gamma    SubType= 14  BuildTable= 1
+      Lambda table from 1.022 MeV to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermoreConversion :  Emin=        0 eV    Emax=        1 GeV
+
+Rayl:   for  gamma    SubType= 11  BuildTable= 1
+      Lambda table from 1 eV  to 100 keV, 100 bins per decade, spline: 0
+      LambdaPrime table from 100 keV to 1 GeV in 400 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh :  Emin=        0 eV    Emax=        1 GeV   CullenGenerator
+
+Rayl:   for  gamma    SubType= 11  BuildTable= 1
+      Lambda table from 1 eV  to 100 keV, 100 bins per decade, spline: 0
+      LambdaPrime table from 100 keV to 1 GeV in 400 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh :  Emin=        0 eV    Emax=        1 GeV   CullenGenerator
+
+phot:   for  gamma    SubType= 12  BuildTable= 0
+      LambdaPrime table from 200 keV to 1 GeV in 370 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric :  Emin=        0 eV    Emax=        1 GeV   AngularGenSauterGavrila  FluoActive
+
+compt:   for  gamma    SubType= 13  BuildTable= 1
+      Lambda table from 1 eV  to 1 MeV, 100 bins per decade, spline: 1
+      LambdaPrime table from 1 MeV to 1 GeV in 300 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+    LivermoreCompton :  Emin=        0 eV    Emax=        1 GeV  FluoActive
+
+conv:   for  gamma    SubType= 14  BuildTable= 1
+      Lambda table from 1.022 MeV to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermoreConversion :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.01, stepLimitType: 3, latDisplacement: 1, skin= 1, geomFactor= 2.5
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 MeV  Table with 600 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=        1 GeV  Table with 100 bins Emin=    100 MeV   Emax=      1 GeV
+
+### ===  Deexcitation model UAtomDeexcitation is activated for 1 region:
+          DefaultRegionForTheWorld
+
+### === G4UAtomicDeexcitation::InitialiseForNewRun()
+### ===  PIXE model for hadrons: Empirical  1
+### ===  PIXE model for e+-:     Livermore  1
+
+eIoni:   for  e-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       LowEnergyIoni :  Emin=        0 eV    Emax=      100 keV   deltaVI
+        MollerBhabha :  Emin=      100 keV   Emax=        1 GeV   deltaVI
+
+eBrem:   for  e-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           LowEnBrem :  Emin=        0 eV    Emax=        1 GeV   AngularGen2BS
+
+CoulombScat:   for  e-, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from 100 MeV to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=      100 MeV   Emax=        1 GeV
+
+msc:   for e-    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+eIoni:   for  e-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+
+eBrem:   for  e-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+
+msc:   for e+    SubType= 10
+      RangeFactor= 0.01, stepLimitType: 3, latDisplacement: 1, skin= 1, geomFactor= 2.5
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=      100 MeV  Table with 600 bins Emin=    100 eV    Emax=    100 MeV
+        WentzelVIUni :  Emin=      100 MeV   Emax=        1 GeV  Table with 100 bins Emin=    100 MeV   Emax=      1 GeV
+
+eIoni:   for  e+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+
+eBrem:   for  e+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+
+annihil:   for  e+, integral: 1     SubType= 5  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg :  Emin=        0 eV    Emax=        1 GeV
+
+CoulombScat:   for  e+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from 100 MeV to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=      100 MeV   Emax=        1 GeV
+
+msc:   for e+    SubType= 10
+      RangeFactor= 0.04, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+eIoni:   for  e+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+
+eBrem:   for  e+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      LPM flag: 1 for E > 1 GeV
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB :  Emin=        0 eV    Emax=        1 GeV   DipBustGen
+
+annihil:   for  e+, integral: 1     SubType= 5  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  proton    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.05, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=        2 MeV   deltaVI
+          BetheBloch :  Emin=        2 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  proton    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  proton    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+nuclearStopping:   for  proton    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hImpactIoni:    Knock-on electron cross sections . 
+        Good description above the mean excitation energy.
+        Delta ray energy sampled from  differential Xsection.
+        PhysicsTables from 10 eV  to 0.1 TeV  in 360 bins.
+        Electronic stopping power model is  ICRU_R49p
+        from 1 keV  to 2 MeV .
+
+        Parametrisation model for antiprotons is  ICRU_R49p
+        from 25 keV  to 2 MeV .
+        Parametrization of the Barkas effect is switched on.
+        Nuclear stopping power model is ICRU_R49
+
+msc:   for GenericIon    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV
+
+ionIoni:   for  GenericIon    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+         ParamICRU73 :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:   for  GenericIon    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for GenericIon    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV
+
+ionIoni:   for  GenericIon    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.001, dRoverRange= 0.1, integral: 1, fluct: 1, linLossLimit= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+         ParamICRU73 :  Emin=        0 eV    Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:   for  GenericIon    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for alpha    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+ionIoni:   for  alpha    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.01, dRoverRange= 0.1, integral: 1, fluct: 1, linLossLimit= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon :  Emin=        0 eV    Emax=   7.9452 MeV   deltaVI
+          BetheBloch :  Emin=   7.9452 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+nuclearStopping:   for  alpha    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for anti_proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  anti_proton    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.05, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=        2 MeV   deltaVI
+          BetheBloch :  Emin=        2 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  anti_proton    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  anti_proton    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+nuclearStopping:   for  anti_proton    SubType= 8  BuildTable= 0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   ICRU49NucStopping :  Emin=        0 eV    Emax=        1 MeV
+
+msc:   for anti_proton    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hImpactIoni:    Knock-on electron cross sections . 
+        Good description above the mean excitation energy.
+        Delta ray energy sampled from  differential Xsection.
+        PhysicsTables from 10 eV  to 0.1 TeV  in 360 bins.
+        Electronic stopping power model is  ICRU_R49p
+        from 1 keV  to 2 MeV .
+
+        Parametrisation model for antiprotons is  ICRU_R49p
+        from 25 keV  to 2 MeV .
+        Parametrization of the Barkas effect is switched on.
+        Nuclear stopping power model is ICRU_R49
+
+msc:   for kaon+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  kaon+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  kaon+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for kaon+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+msc:   for kaon-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  kaon-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  kaon-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for kaon-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  kaon-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  1.05231 MeV   deltaVI
+          BetheBloch :  Emin=  1.05231 MeV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+msc:   for mu+    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+CoulombScat:   for  mu+, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for mu+    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for mu-    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+CoulombScat:   for  mu-, integral: 1     SubType= 1  BuildTable= 1
+      Lambda table from threshold  to 1 GeV, 100 bins per decade, spline: 1
+      180 < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for mu-    SubType= 10
+      RangeFactor= 0.2, step limit type: 0, lateralDisplacement: 1, polarAngleLimit(deg)= 180
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+muIoni:   for  mu-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=      200 keV   deltaVI
+          BetheBloch :  Emin=      200 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+muBrems:   for  mu-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+muPairProd:   for  mu-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for pi+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  pi+    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  pi+    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for pi+    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi+    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+msc:   for pi-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+hBrems:   for  pi-    SubType= 3
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem :  Emin=        0 eV    Emax=        1 GeV
+      ===== Limit on energy threshold has been applied 
+
+hPairProd:   for  pi-    SubType= 4
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd :  Emin=        0 eV    Emax=        1 GeV
+
+msc:   for pi-    SubType= 10
+      RangeFactor= 0.2, stepLimitType: 0, latDisplacement: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc :  Emin=        0 eV    Emax=        1 GeV  Table with 700 bins Emin=    100 eV    Emax=      1 GeV
+
+hIoni:   for  pi-    SubType= 2
+      dE/dx and range tables from 1 eV  to 1 GeV in 900 bins
+      Lambda tables from threshold to 1 GeV, 100 bins per decade, spline: 1
+      finalRange(mm)= 0.1, dRoverRange= 0.2, integral: 1, fluct: 1, linLossLimit= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO :  Emin=        0 eV    Emax=  297.505 keV   deltaVI
+          BetheBloch :  Emin=  297.505 keV   Emax=        1 GeV   deltaVI
+      ===== Limit on energy threshold has been applied 
+
+========= Table of registered couples ==============================
+
+Index : 0     used in the geometry : Yes
+ Material : G4_AIR
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 1     used in the geometry : Yes
+ Material : EJ200
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+Index : 2     used in the geometry : Yes
+ Material : Bialkali
+ Range cuts        :  gamma  1 nm     e-  10 nm     e+  10 nm  proton 1 um 
+ Energy thresholds :  gamma  100 eV     e-  100 eV     e+  100 eV  proton 100 eV 
+ Region(s) which use this couple : 
+    DefaultRegionForTheWorld
+
+====================================================================
+
+Output filename: DataCollectionPlanarUnirrDisc55.root
+Starting Event: 0
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 382
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 383
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 377
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 465
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 379
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 382
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 462
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 386
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 461
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 394
+[LYSim] Hits in PMT: 390
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 396
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 425
+Starting Event: 100
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 391
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 462
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 470
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 399
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 459
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 396
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 396
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 390
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 405
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 459
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 428
+Starting Event: 200
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 455
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 449
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 394
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 396
+[LYSim] Hits in PMT: 481
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 468
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 487
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 433
+Starting Event: 300
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 381
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 386
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 462
+[LYSim] Hits in PMT: 391
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 377
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 395
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 399
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 455
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 377
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 402
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 464
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 420
+Starting Event: 400
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 405
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 470
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 402
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 395
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 395
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 455
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 459
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 395
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 469
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 368
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 396
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 380
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 440
+Starting Event: 500
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 449
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 465
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 393
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 405
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 466
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 464
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 394
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 394
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 470
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 464
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 394
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 386
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 466
+[LYSim] Hits in PMT: 388
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 471
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 456
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 411
+Starting Event: 600
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 449
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 399
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 395
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 405
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 395
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 489
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 459
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 378
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 482
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 470
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 464
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 489
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 405
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 399
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 470
+[LYSim] Hits in PMT: 404
+Starting Event: 700
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 378
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 374
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 394
+[LYSim] Hits in PMT: 375
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 469
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 404
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 462
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 469
+[LYSim] Hits in PMT: 390
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 483
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 449
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 468
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 423
+Starting Event: 800
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 397
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 477
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 380
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 487
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 407
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 384
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 471
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 421
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 473
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 402
+[LYSim] Hits in PMT: 446
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 389
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 467
+[LYSim] Hits in PMT: 486
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 392
+[LYSim] Hits in PMT: 426
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 403
+[LYSim] Hits in PMT: 387
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 413
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 437
+Starting Event: 900
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 483
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 399
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 452
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 427
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 449
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 417
+[LYSim] Hits in PMT: 460
+[LYSim] Hits in PMT: 437
+[LYSim] Hits in PMT: 451
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 463
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 406
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 420
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 411
+[LYSim] Hits in PMT: 408
+[LYSim] Hits in PMT: 424
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 432
+[LYSim] Hits in PMT: 401
+[LYSim] Hits in PMT: 444
+[LYSim] Hits in PMT: 443
+[LYSim] Hits in PMT: 447
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 442
+[LYSim] Hits in PMT: 454
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 445
+[LYSim] Hits in PMT: 441
+[LYSim] Hits in PMT: 425
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 449
+[LYSim] Hits in PMT: 430
+[LYSim] Hits in PMT: 459
+[LYSim] Hits in PMT: 473
+[LYSim] Hits in PMT: 398
+[LYSim] Hits in PMT: 384
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 453
+[LYSim] Hits in PMT: 423
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 439
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 422
+[LYSim] Hits in PMT: 412
+[LYSim] Hits in PMT: 383
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 448
+[LYSim] Hits in PMT: 435
+[LYSim] Hits in PMT: 429
+[LYSim] Hits in PMT: 436
+[LYSim] Hits in PMT: 450
+[LYSim] Hits in PMT: 418
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 433
+[LYSim] Hits in PMT: 440
+[LYSim] Hits in PMT: 416
+[LYSim] Hits in PMT: 455
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 409
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 431
+[LYSim] Hits in PMT: 419
+[LYSim] Hits in PMT: 457
+[LYSim] Hits in PMT: 434
+[LYSim] Hits in PMT: 410
+[LYSim] Hits in PMT: 415
+[LYSim] Hits in PMT: 458
+[LYSim] Hits in PMT: 405
+[LYSim] Hits in PMT: 428
+[LYSim] Hits in PMT: 400
+[LYSim] Hits in PMT: 414
+[LYSim] Hits in PMT: 438
+[LYSim] Hits in PMT: 443
+Efficiency in this run is 1

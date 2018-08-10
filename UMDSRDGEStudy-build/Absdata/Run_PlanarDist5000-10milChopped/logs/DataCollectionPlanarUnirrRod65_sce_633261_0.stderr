@@ -1,0 +1,3 @@
+/home/ahorst/UMDSRDGEStudy-build/./CMS.sh: line 46: 930806 Segmentation fault      ./LYSim ${DET_TYPE} ${INPUT_NAME} ${ANALYSIS_FILE_NAME}
+/home/ahorst/UMDSRDGEStudy-build/./CMS.sh: line 48: syntax error near unexpected token `END'
+/home/ahorst/UMDSRDGEStudy-build/./CMS.sh: line 48: `LYSim.sh (END)'

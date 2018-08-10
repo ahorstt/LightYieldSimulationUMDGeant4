@@ -1,0 +1,5 @@
+import os
+
+for x in range (0,1000):
+
+    os.remove('photest' '%s' '.mac' % x)

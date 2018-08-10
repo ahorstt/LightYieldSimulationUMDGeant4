@@ -1,0 +1,9 @@
+universe = vanilla
+Executable = condor-executable.sh
+should_transfer_files = NO
+Requirements = TARGET.FileSystemDomain == "privnet"
+Output = /home/eno/hgtile/build/sce_$(cluster)_$(process).stdout
+Error = /home/eno/hgtile/build/sce_$(cluster)_$(process).stderr
+Log = /home/eno/hgtile/build/sce_$(cluster)_$(process).condor
+Arguments = SCE
+Queue 1

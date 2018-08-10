@@ -1,0 +1,430 @@
+% Customizable fields and text areas start with % >> below.
+% Lines starting with the comment character (%) are normally removed before release outside the collaboration, but not those comments ending lines
+
+% svn info. These are modified by svn at checkout time.
+% The last version of these macros found before the maketitle will be the one on the front page,
+% so only the main file is tracked.
+% Do not edit by hand!
+\RCS$Revision: 277583 $
+\RCS$HeadURL: svn+ssh://alverson@svn.cern.ch/reps/tdr2/papers/XXX-08-000/trunk/XXX-08-000.tex $
+\RCS$Id: XXX-08-000.tex 277583 2015-02-13 22:14:43Z alverson $
+
+\cmsNoteHeader{XXX-08-000} % This is over-written in the CMS environment: useful as preprint no. for export versions
+% >> Title: please make sure that the non-TeX equivalent is in PDFTitle below
+\title{\TeX table formatting examples}
+
+% >> Authors
+
+\address[neu]{Northeastern University}
+\author[neu]{George Alverson}
+
+\date{\today}
+
+\abstract{
+   Table examples.
+}
+\hypersetup{%
+pdfauthor={George Alverson},%
+pdftitle={TeX table formatting examples},%
+pdfsubject={CMS},%
+pdfkeywords={CMS, physics, software, computing}}
+
+\maketitle
+
+
+\begin{table}[htb]
+\caption{A table without special columns. Trying to get the line ${<}1.0$ to be right justified ends up with it right aligning with the column title rather than the other rows.}
+\begin{verbatim}
+\begin{table}[htp]
+\centering
+\begin{tabular}{lcc}
+  \hline
+  & column 1  & column 2 \\
+  \hline
+  line 1   & 2.0 &  $5\pm4\pm3$   \\
+  line 2 & 2.0 & $2309\pm0.5\pm409$   \\
+  line 3 & \multicolumn{1}{r}{$<$1.0} & $3.14\pm0\pm0$ \\
+  line 4     &  status  &   $3\pm14\pm123$  \\
+\hline
+\end{tabular}
+\end{table}
+\end{verbatim}
+\centering
+\begin{tabular}{lcc}
+  \hline
+  & column 1  & column 2 \\
+  \hline
+  line 1   & 2.0 &  $5\pm4\pm3$   \\
+  line 2 & 2.0 & $2309\pm0.5\pm409$   \\
+  line 3 & \multicolumn{1}{r}{$<$1.0} & $3.14\pm0\pm0$ \\
+  line 4     &  status  &   $3\pm14\pm123$  \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[htb]
+\caption{Using a newcolumntype allows for aligning the first column and the special ${<}1.0$.}
+\begin{verbatim}
+\begin{table}[h]
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\begin{tabular}{l.c}
+  \hline
+  & \multicolumn{1}{c}{column 1}  & column 2 \\
+  \hline
+  line 1   & 2.0 &  $5\pm4\pm3$   \\
+  line 2 & 2.0 & $2309\pm0.5\pm409$   \\
+  line 3 & {<}1.0 & $3.14\pm0\pm0$ \\
+  line 4     &  \multicolumn{1}{c}{status}  &   $3\pm14\pm123$  \\
+\hline
+\end{tabular}
+\end{table}
+\end{verbatim}
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\begin{tabular}{l.c}
+  \hline
+  & \multicolumn{1}{c}{column 1}  & column 2 \\
+  \hline
+  line 1   & 2.0 &  $5\pm4\pm3$   \\
+  line 2 & 2.0 & $2309\pm0.5\pm409$   \\
+  line 3 & {<}1.0 & $3.14\pm0\pm0$ \\
+  line 4     &  \multicolumn{1}{c}{status}  &   $3\pm14\pm123$  \\
+\hline
+\end{tabular}
+\end{table}
+%
+%
+\begin{table}[htb]
+\caption{Aligning the first column and also the second. The latter is aligned on the first $\pm$.}
+\begin{verbatim}
+\begin{table}[h]
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{x}{D{,}{\,\pm\,}{-1}}
+\begin{tabular}{l.x}
+  \hline
+  & \multicolumn{1}{c}{column 1}  & \multicolumn{1}{c}{column 2} \\
+  \hline
+  line 1   & 2.0 &  5,4\pm3   \\
+  line 2 & 2.0 & 2309,0.5\pm409   \\
+  line 3 & {<}1.0 & 3.14,0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &   3,14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+\end{verbatim}
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{x}{D{,}{\,\pm\,}{-1}}
+\begin{tabular}{l.x}
+  \hline
+  & \multicolumn{1}{c}{column 1}  & \multicolumn{1}{c}{column 2} \\
+  \hline
+  line 1   & 2.0 &  5,4\pm3   \\
+  line 2 & 2.0 & 2309,0.5\pm409   \\
+  line 3 & {<}1.0 & 3.14,0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &   3,14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+%
+\begin{table}[h]
+\caption{
+Placing a gap between columns.}
+\begin{verbatim}
+\begin{table}[h]
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{x}{D{,}{\,\pm\,}{-1}}
+\begin{tabular}{l.{c}@{\hspace*{5pt}}x}
+  \hline
+  & \multicolumn{1}{c}{column 1}  && \multicolumn{1}{c}{column 2} \\
+  \cline{2-2}\cline{4-4}
+  line 1   & 2.0 &&  5,4\pm3   \\
+  line 2 & 2.0 && 2309,0.5\pm409   \\
+  line 3 & {<}1.0 && 3.14,0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &&   3,14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+\end{verbatim}
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{x}{D{,}{\,\pm\,}{-1}}
+\begin{tabular}{l.{c}@{\hspace*{5pt}}x}
+  \hline
+  & \multicolumn{1}{c}{column 1}  && \multicolumn{1}{c}{column 2} \\
+  \cline{2-2}\cline{4-4}
+  line 1   & 2.0 &&  5,4\pm3   \\
+  line 2 & 2.0 && 2309,0.5\pm409   \\
+  line 3 & {<}1.0 && 3.14,0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &&   3,14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+%
+%
+\begin{table}[h]
+\caption{Using explicit spacing in a D column so that the column title is centered.}
+\begin{verbatim}
+\begin{table}[h]
+\centering
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{x}{D{,}{\,\pm\,}{4.8}}
+\begin{tabular}{l.{c}@{\hspace*{5pt}}x}
+  \hline
+  & \multicolumn{1}{c}{column 1}  && \multicolumn{1}{c}{column 2} \\
+  \cline{2-2}\cline{4-4}
+  line 1   & 2.0 &&  5,4\pm3   \\
+  line 2 & 2.0 && 2309,0.5\pm409   \\
+  line 3 & {<}1.0 && 3.14,0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &&   3,14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+\end{verbatim}
+\centering
+%\caption{Leaving a space between columns with \verbatim{\cline}s}
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{x}{D{,}{\,\pm\,}{4.8}}
+\begin{tabular}{l.{c}@{\hspace*{5pt}}x}
+  \hline
+  & \multicolumn{1}{c}{column 1}  && \multicolumn{1}{c}{column 2} \\
+  \cline{2-2}\cline{4-4}
+  line 1   & 2.0 &&  5,4\pm3   \\
+  line 2 & 2.0 && 2309,0.5\pm409   \\
+  line 3 & {<}1.0 && 3.14,0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &&   3,14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+%
+\begin{table}[htp]
+\caption{Using an automatic mathmode column.}
+\begin{verbatim}
+\begin{tabular}{lc>{$}c<{$}}
+  \hline
+  & column 1  & \multicolumn{1}{c}{column 2} \\
+  \hline
+  line 1   & 2.0 &  5\pm4\pm3   \\
+  line 2 & 2.0 & 2309\pm0.5\pm409   \\
+  line 3 & \multicolumn{1}{r}{$<$1.0} & 3.14\pm0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &   3\pm14\pm123  \\
+\hline
+\end{tabular}
+\end{verbatim}
+\centering
+\begin{tabular}{lc>{$}c<{$}}
+  \hline
+  & column 1  & \multicolumn{1}{c}{column 2} \\
+  \hline
+  line 1   & 2.0 &  5\pm4\pm3   \\
+  line 2 & 2.0 & 2309\pm0.5\pm409   \\
+  line 3 & \multicolumn{1}{r}{$<$1.0} & 3.14\pm0\pm0 \\
+  line 4     &  \multicolumn{1}{c}{status}  &   3\pm14\pm123  \\
+\hline
+\end{tabular}
+\end{table}
+%
+%
+%\section{Dealing with adding (or subtracting) vertical space}
+\begin{table}[htb]
+\caption{Bad vertical spacing (no adjustments).}
+\begin{verbatim}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+    % repeat the last column specification 3 times
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} &
+     \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\end{verbatim}
+\begin{tabular}{c*{3}{>{$}c<{$}}} % repeat the last column specification 3 times
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} & \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{table}[htb]
+\caption{Vertical spacing with adjustments. These can also be done by either using  explicit spacing, arraystretch to modify the complete table or (bottom) either struts or vphantoms in individual rows. This example uses explicit spacing.}
+\begin{verbatim}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+\multicolumn{1}{c}{col. 1} &\multicolumn{1}{c}{col. 2} &
+   \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline\\[-2.2ex]
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\[0.4ex]
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\[0.4ex]
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\[0.2ex]
+\hline
+\end{tabular}
+\end{verbatim}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} & \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline\\[-2.2ex]
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\[0.4ex]
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\[0.4ex]
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\[0.2ex]
+\hline
+\end{tabular}
+\end{table}
+\begin{table}
+\topcaption{Vertical alignment correction using inserted vertical space via noalign (first row only).}
+\begin{verbatim}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} &
+   \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline\noalign{\smallskip}
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\end{verbatim}
+\begin{tabular}{c*{3}{>{$}c<{$}}} % repeat the last column specification 3 times
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} & \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline\noalign{\smallskip}
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\end{table}
+\begin{table}
+\topcaption{Inserted vertical space using arraystretch (all rows).}
+\begin{verbatim}
+\bgroup
+\renewcommand*{\arraystretch}{1.4}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} &
+   \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\egroup
+\end{verbatim}
+\bgroup
+\renewcommand*{\arraystretch}{1.4}
+\begin{tabular}{c*{3}{>{$}c<{$}}} % repeat the last column specification 3 times
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} & \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline
+row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\egroup
+\end{table}
+\begin{table}
+\topcaption{Inserted vertical space using a strut (first row only). The baselineskip is \the\baselineskip, but 0 inside the table.}
+\begin{verbatim}
+\newlength{\ruleht}
+\setlength{\ruleht}{\baselineskip}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+\multicolumn{1}{c}{col. 1} &\multicolumn{1}{c}{col. 2} &
+   \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline
+\rule[-0.2\ruleht]{0pt}{1.15\ruleht}row 1& \ttbar &
+   7^{+12}_{-5.2} & \frac{1}{3}\\[0.4ex]
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\end{verbatim}
+\newlength{\ruleht}
+\setlength{\ruleht}{\baselineskip}
+\begin{tabular}{c*{3}{>{$}c<{$}}}
+\multicolumn{1}{c}{col. 1} & \multicolumn{1}{c}{col. 2} & \multicolumn{1}{c}{col. 3} & \multicolumn{1}{c}{col. 4}\\
+\hline
+\rule[-0.2\ruleht]{0pt}{1.15\ruleht}row 1& \ttbar & 7^{+12}_{-5.2} & \frac{1}{3}\\[0.4ex]
+row 2& 7^{+12}_{-5.2} & \frac{1}{3}& \ttbar \\
+row 3& \frac{1}{3}& \ttbar & 7^{+12}_{-5.2} \\
+\hline
+\end{tabular}
+\end{table} 
+\begin{table}
+\newcommand{\MLQ}{\ensuremath{{m_{\mathrm{LQ}}}}\xspace}
+\topcaption{Real life example}
+\begin{verbatim}
+\begin{center}
+\begin{tabular}{|l|r@{$ \,\,\pm\,\, $}l|}
+\hline
+Process & \multicolumn{2}{c|}{Event yield}  \\
+\hline
+ {\PW}+jets                  & $337.2$ & $71.1$  \\
+Other electroweak            & $123.9$ & $13.8$  \\
+ \ttbar                      & $87.7$ & $14.1$ \\
+QCD multijet                 & $13.0$ & $5.4$  \\
+Total expected background    & $561.8$ & $77.4$  \\
+LQ, $\MLQ=1200\GeV$          & $17.7$ & $1.0$  \\
+\hline
+Observed                     & \multicolumn{2}{c|}{$$} \\
+\hline
+\end{tabular}
+\end{center}
+\end{verbatim}
+\begin{center}
+\begin{tabular}{|l|r@{$ \,\,\pm\,\, $}l|}
+\hline
+Process & \multicolumn{2}{c|}{Event yield}  \\
+\hline
+ {\PW}+jets                  & $337.2$ & $71.1$  \\
+Other electroweak            & $123.9$ & $13.8$  \\
+ \ttbar                      & $87.7$ & $14.1$ \\
+QCD multijet                 & $13.0$ & $5.4$  \\
+Total expected background    & $561.8$ & $77.4$  \\
+LQ, $\MLQ=1200\GeV$          & $17.7$ & $1.0$  \\
+\hline
+Observed                     & \multicolumn{2}{c|}{$$} \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\newcommand{\MLQ}{\ensuremath{{m_{\mathrm{LQ}}}}\xspace}
+\topcaption{Real life example, simplified}
+\begin{verbatim}
+\centering
+\newlength\cmsTabSkip\setlength{\cmsTabSkip}{2ex}
+\newcolumntype{z}{D{,}{\,\pm\,}{3.1}}
+\begin{tabular}{lD}
+Process & \multicolumn{1}{c}{Event yield}  \\
+\hline
+ {\PW}+jets                  & 337.2, 71.1  \\
+Other electroweak            & 123.9, 13.8  \\
+ \ttbar                      & 87.7, 14.1 \\
+QCD multijet                 & 13.0, 5.4  \\
+Total expected background    & 561.8, 77.4  \\
+LQ, $\MLQ=1200\GeV$          & 17.7, 1.0  \\[\cmsTabSkip]
+Observed                     &  \\
+\hline
+\end{tabular}
+\end{verbatim}
+\centering
+\newlength\cmsTabSkip\setlength{\cmsTabSkip}{2ex}
+\newcolumntype{z}{D{,}{\,\pm\,}{3.1}}
+\begin{tabular}{lz}
+Process & \multicolumn{1}{c}{Event yield}  \\
+\hline
+ {\PW}+jets                  & 337.2, 71.1  \\
+Other electroweak            & 123.9, 13.8  \\
+ \ttbar                      & 87.7, 14.1 \\
+QCD multijet                 & 13.0, 5.4  \\
+Total expected background    & 561.8, 77.4  \\
+LQ, $\MLQ=1200\GeV$          & 17.7, 1.0  \\[\cmsTabSkip]
+Observed                     &  \\
+\hline
+\end{tabular}
+\end{table}

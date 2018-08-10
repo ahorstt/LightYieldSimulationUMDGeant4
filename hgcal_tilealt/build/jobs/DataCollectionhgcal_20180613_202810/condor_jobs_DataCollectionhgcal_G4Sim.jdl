@@ -1,0 +1,10 @@
+
+universe = vanilla
+Executable = ./condor-executable.sh
+should_transfer_files = NO
+Requirements = TARGET.FileSystemDomain == "privnet"
+Error  = /home/ahorst/hgcal_tile/build/Absdata/RunHgcal_2018/logs/DataCollectionhgcal_sce_$(cluster)_$(process).stderr
+Log    = /home/ahorst/hgcal_tile/build/Absdata/RunHgcal_2018/logs/DataCollectionhgcal_sce_$(cluster)_$(process).condor
+Output = /home/ahorst/hgcal_tile/build/Absdata/RunHgcal_2018/logs/DataCollectionhgcal_sce_$(cluster)_$(process).stdout
+Arguments = photest3.mac /home/ahorst/hgcal_tile/build/Absdata DataCollectionhgcal
+Queue

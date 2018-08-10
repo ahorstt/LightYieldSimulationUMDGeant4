@@ -1,0 +1,87 @@
+/home/ahorst/UMDSRDGEStudy-build
+photest0.mac
+DataCollectionMuonTotalEneUnirr
+0
+
+CMSSW on Condor
+
+started at Tue May  8 10:31:42 EDT 2018
+
+*************************************************************
+ Geant4 version Name: geant4-10-01-patch-02    (19-June-2015)
+                      Copyright : Geant4 Collaboration
+                      Reference : NIM A 506 (2003), 250-303
+                            WWW : http://cern.ch/geant4
+*************************************************************
+
+[LYSim] 11111
+[LYSim] Detector type: Tile
+[LYSim] 22222
+[LYSim] 33333
+[LYSim] 44444
+[LYSim] Refractive Index of Scintillator-PMT gap set to 1.4
+[LYSim] Fiber abs length set to 2.97872 m  
+[LYSim] [SCSN81] Tile abs length set to 3.8 m  
+ Material: G4_POLYSTYRENE    density:  1.060 g/cm3   RadL:  41.313 cm   Nucl.Int.Length:  68.836 cm 
+                       Imean:  68.700 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  92.26 %  ElmAbundance  50.00 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   7.74 %  ElmAbundance  50.00 % 
+
+ Material:    EJ200    density:  1.023 g/cm3   RadL:  42.910 cm   Nucl.Int.Length:  70.730 cm 
+                       Imean:  64.778 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  91.53 %  ElmAbundance  47.56 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   8.47 %  ElmAbundance  52.44 % 
+
+[LYSim] [EJ260] Tile abs length set to 3.8 m  
+ Material:    EJ260    density:  1.023 g/cm3   RadL:  42.916 cm   Nucl.Int.Length:  70.697 cm 
+                       Imean:  64.715 eV 
+
+   --->  Element: C (C)   Z =  6.0   N =  12.0   A =  12.01 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance:  98.93 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:   1.07 %
+          ElmMassFraction:  91.49 %  ElmAbundance  47.43 % 
+
+   --->  Element: H (H)   Z =  1.0   N =   1.0   A =   1.01 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance:  99.99 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:   0.01 %
+          ElmMassFraction:   8.51 %  ElmAbundance  52.57 % 
+
+LUT - data file: /data/users/jengbou/workspace/UserCode/geant4.10.03-install/share/Geant4-10.3.0/data/RealSurface1.0/PolishedTyvek.dat read in! 
+LUT - data file: /data/users/jengbou/workspace/UserCode/geant4.10.03-install/share/Geant4-10.3.0/data/RealSurface1.0/PolishedTyvek.dat read in! 
+******** [LYSim] ********
+thetaMin set to 0.117889
+thetaMax set to 0.141068
+rMin set to 50.3656 cm 
+rMax set to 60.39 cm 
+Dy set to 10.0244 cm 
+Dx2 set to 10.0244 cm 
+******** [LYSim] ********
+Checking overlaps for volume Tile ... OK! 
+Checking overlaps for volume FiberGroove ... 
+-------- WWWW ------- G4Exception-START -------- WWWW -------
+*** G4Exception : GeomVol1002
+      issued by : G4PVPlacement::CheckOverlaps()
+Overlap with mother volume !
+          Overlap is detected for volume FiberGroove
+          with its mother volume Tile
+          at mother local point (45.3978,-71.7753,-1.1194), overlapping by at least: 2.16533 cm 
+NOTE: Reached maximum fixed number -1- of overlaps reports for this volume !
+*** This is just a warning message. ***
+-------- WWWW -------- G4Exception-END --------- WWWW -------
+

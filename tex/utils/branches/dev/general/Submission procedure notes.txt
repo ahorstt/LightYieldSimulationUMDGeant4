@@ -1,0 +1,107 @@
+These are the basic steps in readying a manuscript for submission to a journal:
+
+1.	Combine all the files into a single tex file.
+2.	Remove any unused macros.  [I have a python3 script I use as an aid here: matchTeXcommands.py.]
+3.	Remove all comments, including those inline. [The submission script will do most of these, but it is better to explicitly rip them out.]
+4.	General clean up of TeX; use of standard macros, no 8-bit characters [find-8bit.py], etc. This is particularly important for APS submissions.
+4a.	Clean up of tables. Remove any vertical rules not strictly required. Prefer spacing to horizontal rules. [APS will rip them out, so it is better to do this under our control. PLB and EPJC are not as strict but 
+the styles are similar.] Some table tricks are outlined in utils/branches/general/XXX-08-000_table_examples.tex.
+4b.	Clean up of figures. Make sure they make sense in the final output format. (generally two column.) Use formatting sensitive position references and figure widths (\cmsLeft; \cmsRight; \cmsFigWidth)
+4c.	Remove any clever formatting that will break in a new environment. [Usually \clearpage or figure formatting.]
+4d.	Make sure APS specific macros are used for CL\C.L., \NA (not applicable, ---\...)
+5.	Size figures and equations to match journal requirements. (This is mostly 2 column vs. 1 column, but EPJC has very tight spacing parameters and that requires judiciously overriding them through the use of 
+\tolerance commands.)
+6.	Check the acknowledgments and put an up-to-date copy of the spreadsheet in the directory. Spellcheck.
+7.	Check the references!! This starts with checking the output given when building with --preview. The commonly used references are in utils/branches/general/gen.bib, as are bib lists of CMS papers (CMSPapers.bib) and PASes (.
+The latter is a bit out of date.
+8.	Move all the figures to the top directory [svn copy... using tmp/FigList.txt and renameFigures.py] and  number them in order of appearance.
+
+Most scripts are in svn+ssh://svn.cern.ch/reps/tdr2/utils/branches/general. For those that require python3, it will be your default if you do
+> scl enable python33 bash
+This sets python33 as your python. The list is at /etc/scl/prefixes.
+
+To illustrate these, a version was committed after most of the individual steps during the submission of TOP-16-016. A log is given at the end below. Individual changes can be seen by using, e.g.,
+> svn diff --change 388344 svn+ssh://svn.cern.ch/reps/tdr2/papers/TOP-16-016/trunk
+Index: TOP-16-016.tex
+===================================================================
+--- TOP-16-016.tex      (revision 388343)
++++ TOP-16-016.tex      (revision 388344)
+
+The difference output is most useful when directed to a visual difference program. (I use BeyondCompare, but I work on Windows.)
+
+===========================================================================================
+
+
+> svn log --limit 10 --verbose svn+ssh://svn.cern.ch/reps/tdr2/papers/TOP-16-016/trunk
+------------------------------------------------------------------------
+r388392 | alverson | 2017-02-20 21:16:59 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   M /papers/TOP-16-016/trunk/TOP-16-016.tex
+
+Allow breaks in MC names.
+
+------------------------------------------------------------------------
+r388344 | alverson | 2017-02-20 17:43:01 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   M /papers/TOP-16-016/trunk/TOP-16-016.tex
+
+Add latest acks and fix labels for Fig 3 in PLB style
+
+------------------------------------------------------------------------
+r388343 | alverson | 2017-02-20 17:42:33 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   M /papers/TOP-16-016/trunk/Figure_001.pdf
+
+Crop figure
+
+------------------------------------------------------------------------
+r388342 | alverson | 2017-02-20 17:42:09 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   A /papers/TOP-16-016/trunk/CMS Funding agencies.xlsx (from /utils/trunk/general/CMS Funding agencies.xlsx:388339)
+
+Add current funding agency list.
+
+------------------------------------------------------------------------
+r388329 | alverson | 2017-02-20 17:20:40 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   M /papers/TOP-16-016/trunk/TOP-16-016.bib
+   M /papers/TOP-16-016/trunk/TOP-16-016.tex
+
+Clean up references. Check for PLB format.
+
+------------------------------------------------------------------------
+r388316 | alverson | 2017-02-20 16:31:57 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   M /papers/TOP-16-016/trunk/TOP-16-016.tex
+
+Clean up TeX; spellcheck.
+
+------------------------------------------------------------------------
+r388299 | alverson | 2017-02-20 15:39:24 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   D /papers/TOP-16-016/trunk/tmp.tex
+
+remove temporary file
+
+------------------------------------------------------------------------
+r388298 | alverson | 2017-02-20 15:38:48 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   A /papers/TOP-16-016/trunk/Figure_001.pdf (from /papers/TOP-16-016/trunk/figures_general/tttt_t_LO.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_002-a.pdf (from /papers/TOP-16-016/trunk/figures_single/BDT_muJets_9nJets3nMtags_StackLogY.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_002-b.pdf (from /papers/TOP-16-016/trunk/figures_single/BDT_eJets_9nJets3nMtags_StackLogY.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_002-c.pdf (from /papers/TOP-16-016/trunk/figures_single/BDT_muJets_9nJets4nMtags_StackLogY.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_002-d.pdf (from /papers/TOP-16-016/trunk/figures_single/BDT_eJets_9nJets4nMtags_StackLogY.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_003-a.pdf (from /papers/TOP-16-016/trunk/figures_dilep/BDT_4nJets.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_003-b.pdf (from /papers/TOP-16-016/trunk/figures_dilep/BDT_6nJets.pdf:388287)
+   A /papers/TOP-16-016/trunk/Figure_003-c.pdf (from /papers/TOP-16-016/trunk/figures_dilep/BDT_8nJets.pdf:388287)
+   M /papers/TOP-16-016/trunk/TOP-16-016.tex
+   A /papers/TOP-16-016/trunk/tmp.tex
+
+Move figures to top level.
+
+------------------------------------------------------------------------
+r388297 | alverson | 2017-02-20 15:23:53 +0100 (Mon, 20 Feb 2017) | 2 lines
+Changed paths:
+   M /papers/TOP-16-016/trunk/TOP-16-016.tex
+
+Combine files into main tex document. Remove unused definitions.
